@@ -1,0 +1,27 @@
+#galeria {
+    padding: 25px 10px;
+}
+
+#galeria .col-lg-4 {
+    margin: 0 !important;
+    padding: 25px 10px;
+}
+#galeria img {
+    width: 100%;
+    height: 250px;
+    border-radius: 0.5rem;
+}
+#galeria img:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04);
+    border-radius: 0.5rem;    
+    border: 5px solid var(--background-color);
+}
+img { 
+    filter: opacity(0.9);
+    transform: scale(1.04);
+}
+section {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}

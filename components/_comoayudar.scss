@@ -1,0 +1,14 @@
+.img-help {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.img-help:hover {
+    opacity: 0.7;
+}
+
+.img-help:active {
+    opacity: 0.5;
+    transform: scale(0.999);
+}

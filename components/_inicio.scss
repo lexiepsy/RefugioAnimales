@@ -1,0 +1,29 @@
+.item {
+    margin: 1em;
+    padding: 1em;
+    float: left;
+}
+.contenedor {
+    overflow: hidden;
+}
+h1 { 
+    text-transform: uppercase;
+}
+.imgdog {
+    border-radius: 0.5rem;
+    width: 100%;
+}
+.imgdog:hover {
+    filter: opacity(0.9);
+    transform: scale(1.1);
+    filter: drop-shadow(0px 0px 3px #fff);
+}
+.imgcat {
+    border-radius: 0.5px;
+    width: 100%;
+}
+.imgcat:hover {
+    filter: opacity(0.9);
+    transform: scale(1.1);
+    filter: drop-shadow(0px 0px 3px #fff);
+}
